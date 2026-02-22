@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birdie Poker — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        h1 { color: #1B4E32; margin-bottom: 8px; font-size: 28px; }
+        h2 { color: #1B4E32; margin-top: 32px; margin-bottom: 12px; font-size: 20px; border-bottom: 2px solid #1B4E32; padding-bottom: 4px; }
+        h3 { color: #2a6b45; margin-top: 20px; margin-bottom: 8px; font-size: 16px; }
+        p { margin-bottom: 12px; }
+        ul { margin-left: 24px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        .effective-date { color: #666; font-size: 14px; margin-bottom: 24px; }
+        .highlight { background: #e8f5e9; padding: 12px 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #1B4E32; }
+        a { color: #1B4E32; }
+        footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
+    </style>
+</head>
+<body>
+
+<h1>Birdie Poker Privacy Policy</h1>
+<p class="effective-date">Effective Date: February 21, 2026</p>
+
+<div class="highlight">
+    <strong>Summary:</strong> Birdie Poker is a golf scoring app with poker-style card mechanics. We use anonymous authentication, collect minimal data needed for gameplay, and do not sell your personal information. The app contains ads served by Google AdMob.
+</div>
+
+<h2>1. Introduction</h2>
+<p>Birdie Poker ("the App") is developed and operated by Brice Herbers ("we," "us," or "our"). This Privacy Policy explains how we collect, use, and protect your information when you use the App.</p>
+<p>By using Birdie Poker, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>2a. Anonymous Authentication</h3>
+<p>When you first open the App, we create an anonymous user account using Firebase Authentication. This generates a random unique identifier (User ID) that is not linked to your name, email, or any other personal information. This ID is used solely to manage your game sessions.</p>
+
+<h3>2b. Location Data</h3>
+<p>If you grant permission, the App uses your device's location to find nearby golf courses. Your location is sent to a third-party golf course API (GolfCourseAPI.com) to retrieve course data. We do not store your location on our servers. Location access is optional — you can search for courses by name instead.</p>
+
+<h3>2c. Game Data</h3>
+<p>During online multiplayer games, the App stores game-related data (player names, scores, card hands, and game state) in Firebase Realtime Database. This data is associated with your anonymous User ID and is automatically cleaned up after games end. Player names are chosen by you and do not need to be your real name.</p>
+
+<h3>2d. Device Notifications</h3>
+<p>If you enable push notifications, we store a Firebase Cloud Messaging (FCM) token to send you game-related notifications (e.g., when it's your turn). This token is device-specific and does not identify you personally.</p>
+
+<h3>2e. Advertising Data</h3>
+<p>The App displays ads through Google AdMob. AdMob may collect device identifiers (including the Identifier for Advertisers, or IDFA, if you grant tracking permission) and information about your ad interactions to serve relevant ads. This data is collected and processed by Google according to their privacy policy.</p>
+
+<h3>2f. Local Storage</h3>
+<p>The App stores your preferences, profile settings (display name, handicap), and cached course data locally on your device using standard iOS storage (UserDefaults). This data never leaves your device.</p>
+
+<h2>3. How We Use Your Information</h2>
+<ul>
+    <li><strong>Anonymous User ID:</strong> To manage multiplayer game sessions and associate your scores with your player profile during gameplay.</li>
+    <li><strong>Location:</strong> To find golf courses near you. Not stored on our servers.</li>
+    <li><strong>Game Data:</strong> To facilitate real-time online multiplayer gameplay. Temporary data is cleaned up automatically.</li>
+    <li><strong>FCM Token:</strong> To deliver push notifications about your games.</li>
+    <li><strong>Advertising Data:</strong> To display ads and support the free version of the App. Managed entirely by Google AdMob.</li>
+</ul>
+
+<h2>4. Third-Party Services</h2>
+<p>The App uses the following third-party services, each with their own privacy policies:</p>
+<ul>
+    <li><strong>Firebase (Google):</strong> Authentication, Realtime Database, Cloud Messaging — <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+    <li><strong>Google AdMob:</strong> Advertising — <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    <li><strong>GolfCourseAPI.com:</strong> Golf course data lookup — location coordinates are sent to retrieve nearby course information.</li>
+</ul>
+
+<h2>5. Data Sharing</h2>
+<p>We do not sell, trade, or rent your personal information. Data is shared only as described above with third-party services essential to the App's functionality (Firebase for multiplayer, AdMob for advertising, GolfCourseAPI for course data).</p>
+
+<h2>6. Data Retention</h2>
+<ul>
+    <li><strong>Game session data:</strong> Automatically deleted after games end or sessions expire (typically within 24 hours of inactivity).</li>
+    <li><strong>Anonymous User ID:</strong> Persists on your device until you uninstall the App or clear app data.</li>
+    <li><strong>Local preferences:</strong> Stored on your device until you uninstall the App.</li>
+    <li><strong>FCM tokens:</strong> Refreshed automatically by Firebase; old tokens are invalidated.</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>Birdie Poker is rated 12+ due to simulated gambling content (poker with virtual chips only — no real money is involved). We do not knowingly collect personal information from children under 13. The App uses anonymous authentication and does not require any personal information to use.</p>
+
+<h2>8. Your Rights and Choices</h2>
+<ul>
+    <li><strong>Location:</strong> You can deny or revoke location permission at any time in your device's Settings. The App will still function — you can search for courses by name.</li>
+    <li><strong>Ad Tracking:</strong> You can deny ad tracking when prompted (App Tracking Transparency). You can also change this in Settings &gt; Privacy &gt; Tracking.</li>
+    <li><strong>Notifications:</strong> You can disable push notifications in your device's Settings at any time.</li>
+    <li><strong>Delete Data:</strong> Uninstalling the App removes all locally stored data. Your anonymous Firebase account and any associated game data can be deleted by contacting us.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>We use industry-standard security measures provided by Firebase and Google Cloud Platform to protect your data in transit and at rest. All network communication uses HTTPS encryption.</p>
+
+<h2>10. No Real-Money Gambling</h2>
+<div class="highlight">
+    Birdie Poker uses virtual chips for entertainment purposes only. There is no real-money wagering, no in-app purchases of virtual currency, and no ability to cash out virtual chips. The poker mechanics are purely for fun as part of the golf scoring experience.
+</div>
+
+<h2>11. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Effective Date" at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+<h2>12. Contact Us</h2>
+<p>If you have questions about this Privacy Policy or wish to request deletion of your data, please contact us at:</p>
+<p><strong>Email:</strong> brice.herbers@gmail.com</p>
+
+<footer>
+    <p>&copy; 2026 Brice Herbers. All rights reserved. Birdie Poker is a trademark of Brice Herbers.</p>
+</footer>
+
+</body>
+</html>
